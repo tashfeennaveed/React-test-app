@@ -8,4 +8,4 @@ class Welcome extends Component {
   }
 }
 
-export default Welcom
+export default Welcome
