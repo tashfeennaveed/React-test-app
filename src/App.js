@@ -4,6 +4,7 @@ import {Greet} from './components/Greet';
 import Welcome from './components/welcome';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
+import Eventbind from './components/EventBind';
 
 //import {Hello} from './components/hello';
 //import Message from './components/message';
@@ -13,11 +14,20 @@ import ClassClick from './components/ClassClick';
 function App() {
   return (
     <div className="App">
-       <ClassClick></ClassClick>
+       
+       <Eventbind></Eventbind>
+       
+       
+       
+       
+       
+       
+       
+       {/* <ClassClick></ClassClick>
       <FunctionClick></FunctionClick> 
       
      {/* <Greet name='bruce' hero='batman' />
-     <Welcome name='bruce' hero='batman' /> */}
+     <Welcome name='bruce' hero='batman' /> */} 
 
     </div>
   );
