@@ -12,7 +12,12 @@ class Counter extends Component {
    incriment(){
     //    this.setState({
     //        count: this.state.count +1
-    //    })
+    //    },
+    //      () => {
+    //          console.log('callback value', this.state.count )
+    //      }
+    // )
+
     this.setState((prevStat,props)  => ({
        count:prevStat.count + 1
     }),
