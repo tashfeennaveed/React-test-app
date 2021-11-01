@@ -41,3 +41,9 @@ class Eventbind extends Component {
 }
 
 export default Eventbind
+
+
+// 1=.bind(this)
+// 2=()=> in onclick
+// 3=.bind in constructor
+// 4=make methods equal to arrow function
