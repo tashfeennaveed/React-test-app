@@ -1,5 +1,6 @@
 
 import './App.css';
+//import Navbar from './components/Navbar';
 // import {Greet} from './components/Greet';
 // import Welcome from './components/welcome';
 // import FunctionClick from './components/FunctionClick';
@@ -8,7 +9,6 @@ import './App.css';
  import ParentComponent from './components/ParentComponent';
 // // import test from './components/test';
 // import childComponent from './components/childComponent';
-import userGreeting from './components/userGreeting';
 
 
 
@@ -21,14 +21,15 @@ import userGreeting from './components/userGreeting';
 function App() {
   return (
     <div className="App">
-       <userGreeting></userGreeting>
+      {/* <Navbar/> */}
+      
        
        
        
-       {/* <ParentComponent></ParentComponent>
-       czdczdsczsggffbbvh
-       <childComponent></childComponent> 
-        */}
+       <ParentComponent></ParentComponent>
+      
+      
+        
 
        {/* <Eventbind></Eventbind> */}
        {/* <ClassClick></ClassClick>
