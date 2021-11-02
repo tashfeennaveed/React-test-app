@@ -1,13 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
 // import {Greet} from './components/Greet';
 // import Welcome from './components/welcome';
 // import FunctionClick from './components/FunctionClick';
 // import ClassClick from './components/ClassClick';
 // import Eventbind from './components/EventBind';
-import ParentComponent from './components/ParentComponent';
-// import test from './components/test';
-import childComponent from './components/childComponent';
+ import ParentComponent from './components/ParentComponent';
+// // import test from './components/test';
+// import childComponent from './components/childComponent';
+import userGreeting from './components/userGreeting';
+
 
 
 
@@ -19,13 +21,14 @@ import childComponent from './components/childComponent';
 function App() {
   return (
     <div className="App">
+       <userGreeting></userGreeting>
        
-       {/* <ParentComponent></ParentComponent> */}
        
-       <ParentComponent></ParentComponent>
+       
+       {/* <ParentComponent></ParentComponent>
        czdczdsczsggffbbvh
-       <childComponent></childComponent>
-       
+       <childComponent></childComponent> 
+        */}
 
        {/* <Eventbind></Eventbind> */}
        {/* <ClassClick></ClassClick>
