@@ -1,12 +1,13 @@
 
 import './App.css';
+import UserGreeting from './components/UserGreeting';
 //import Navbar from './components/Navbar';
 // import {Greet} from './components/Greet';
 // import Welcome from './components/welcome';
 // import FunctionClick from './components/FunctionClick';
 // import ClassClick from './components/ClassClick';
 // import Eventbind from './components/EventBind';
- import ParentComponent from './components/ParentComponent';
+ //import ParentComponent from './components/ParentComponent';
 // // import test from './components/test';
 // import childComponent from './components/childComponent';
 
@@ -22,11 +23,11 @@ function App() {
   return (
     <div className="App">
       {/* <Navbar/> */}
-      
+      <UserGreeting/>
        
        
        
-       <ParentComponent></ParentComponent>
+       {/* <ParentComponent></ParentComponent> */}
       
       
         
