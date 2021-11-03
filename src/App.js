@@ -1,6 +1,7 @@
 
 import './App.css';
-import Form from './components/Form';
+import LifeCycleA from './components/LifeCycleA';
+//import Form from './components/Form';
 //import Inline from './components/Inline';
 //import NameList2 from './components/NameList2';
 //import NameList from './components/NameList';
@@ -30,9 +31,9 @@ function App() {
   return (
     <div className="App">
       {/* <Navbar/> */}
-      <Form></Form>
+      <LifeCycleA/>
 
-
+      {/* <Form></Form> */}
       {/* <Inline></Inline>
       <h1 className='error' >ERROR</h1>
       plain .css file makes classes local by default
