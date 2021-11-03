@@ -1,6 +1,7 @@
 
 import './App.css';
-import Inline from './components/Inline';
+import Form from './components/Form';
+//import Inline from './components/Inline';
 //import NameList2 from './components/NameList2';
 //import NameList from './components/NameList';
 //import UserGreeting from './components/UserGreeting';
@@ -14,8 +15,8 @@ import Inline from './components/Inline';
 // // import test from './components/test';
 // import childComponent from './components/childComponent';
 //import StyleSheet from './components/StyleSheet';
-import './AppStyles.css'
-import styles from './AppStyles.module.css'
+//import './AppStyles.css'
+//import styles from './AppStyles.module.css'
 
 
 
@@ -29,12 +30,16 @@ function App() {
   return (
     <div className="App">
       {/* <Navbar/> */}
+      <Form></Form>
 
-      <Inline></Inline>
+
+      {/* <Inline></Inline>
       <h1 className='error' >ERROR</h1>
       plain .css file makes classes local by default
       <h1 className={styles.success} >SUCCESS</h1>
-      modules.css is specific to the place and cant be used in chil component
+      modules.css is specific to the place and cant be used in chil component */}
+
+
       {/* <StyleSheet Primary={true}></StyleSheet> */}
       {/* <NameList2/> */}
       {/* <NameList/>  */}
