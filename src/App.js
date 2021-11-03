@@ -1,6 +1,7 @@
 
 import './App.css';
-import NameList from './components/NameList';
+import NameList2 from './components/NameList2';
+//import NameList from './components/NameList';
 //import UserGreeting from './components/UserGreeting';
 //import Navbar from './components/Navbar';
 // import {Greet} from './components/Greet';
@@ -25,9 +26,8 @@ function App() {
     <div className="App">
       {/* <Navbar/> */}
 
-      <NameList/> 
-
-
+      <NameList2/>
+      {/* <NameList/>  */}
       {/* <UserGreeting/>
         <ParentComponent></ParentComponent> */}
       
