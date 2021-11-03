@@ -1,6 +1,7 @@
 
 import './App.css';
-import LifeCycleA from './components/LifeCycleA';
+import LifeCycleB from './components/LifeCycleB';
+//import LifeCycleA from './components/LifeCycleA';
 //import Form from './components/Form';
 //import Inline from './components/Inline';
 //import NameList2 from './components/NameList2';
@@ -12,7 +13,7 @@ import LifeCycleA from './components/LifeCycleA';
 // import FunctionClick from './components/FunctionClick';
 // import ClassClick from './components/ClassClick';
 // import Eventbind from './components/EventBind';
- //import ParentComponent from './components/ParentComponent';
+//import ParentComponent from './components/ParentComponent';
 // // import test from './components/test';
 // import childComponent from './components/childComponent';
 //import StyleSheet from './components/StyleSheet';
@@ -31,8 +32,9 @@ function App() {
   return (
     <div className="App">
       {/* <Navbar/> */}
-      <LifeCycleA/>
+      <LifeCycleB/>
 
+      {/* <LifeCycleA/> */}
       {/* <Form></Form> */}
       {/* <Inline></Inline>
       <h1 className='error' >ERROR</h1>
