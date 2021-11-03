@@ -11,7 +11,7 @@ class UserGreeting extends Component {
     
     render() {
         
-        return this.state.isloggedin &&  <div>qwerty</div> 
+        return this.state.isloggedin  &&  <div>qwerty</div> 
 
 
 

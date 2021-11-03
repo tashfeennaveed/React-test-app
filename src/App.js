@@ -1,6 +1,7 @@
 
 import './App.css';
-import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
+//import UserGreeting from './components/UserGreeting';
 //import Navbar from './components/Navbar';
 // import {Greet} from './components/Greet';
 // import Welcome from './components/welcome';
@@ -23,11 +24,12 @@ function App() {
   return (
     <div className="App">
       {/* <Navbar/> */}
-      <UserGreeting/>
-       
-       
-       
-       {/* <ParentComponent></ParentComponent> */}
+
+      <NameList/> 
+
+
+      {/* <UserGreeting/>
+        <ParentComponent></ParentComponent> */}
       
       
         
