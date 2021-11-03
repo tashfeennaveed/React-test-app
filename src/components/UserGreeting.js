@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class userGreeting extends Component {
+class UserGreeting extends Component {
     constructor(props) {
         super(props)
     
@@ -10,23 +10,52 @@ class userGreeting extends Component {
     }
     
     render() {
+        
+        return this.state.isloggedin &&  <div>qwerty</div> 
 
-        if(this.state.isloggedin){
-            return(
-                <div>
-                     qwerty
-                 </div>
-            )}
-        else {
-            return(
-                <div>
-                      ytrewq
-                 </div>
-                  )
 
-             }
 
-        }
+
+
+        // return(
+        // this.state.isloggedin ?
+        // <div>qwerty</div>:
+        // <div>ytrewq</div>
+        // )
+ 
+
+
+
+
+        // let message
+        // if(this.state.isloggedin)
+        // {
+        //     message = <div>qwerty</div>
+        // } else {
+        //     message = <div>ytrewq</div>
+        // }
+
+        // return <div>{message}</div>
+
+
+
+
+        // if(this.state.isloggedin){
+        //     return(
+        //         <div>
+        //              qwerty
+        //          </div>
+        //     )}
+        // else {
+        //     return(
+        //         <div>
+        //               ytrewq
+        //          </div>
+        //           )
+
+        //      }
+
+        // }
 
 
 
@@ -43,6 +72,6 @@ class userGreeting extends Component {
         //     </div>
         // )
     
-}
+}}
 
-export default userGreeting
+export default UserGreeting
