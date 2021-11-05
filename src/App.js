@@ -1,6 +1,8 @@
 
 import './App.css';
-import LifeCycleB from './components/LifeCycleB';
+//import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
+//import LifeCycleB from './components/LifeCycleB';
 //import LifeCycleA from './components/LifeCycleA';
 //import Form from './components/Form';
 //import Inline from './components/Inline';
@@ -32,8 +34,9 @@ function App() {
   return (
     <div className="App">
       {/* <Navbar/> */}
-      <LifeCycleB/>
-
+      {/* <FragmentDemo></FragmentDemo> */}
+      <Table></Table>
+      {/* <LifeCycleB/> */}
       {/* <LifeCycleA/> */}
       {/* <Form></Form> */}
       {/* <Inline></Inline>
