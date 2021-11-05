@@ -1,23 +1,8 @@
 
+
 import './App.css';
-//import FragmentDemo from './components/FragmentDemo';
-import Table from './components/Table';
-//import LifeCycleB from './components/LifeCycleB';
-//import LifeCycleA from './components/LifeCycleA';
-//import Form from './components/Form';
-//import Inline from './components/Inline';
-//import NameList2 from './components/NameList2';
-//import NameList from './components/NameList';
-//import UserGreeting from './components/UserGreeting';
-//import Navbar from './components/Navbar';
+import PureComp from './components/PureComp';
 // import {Greet} from './components/Greet';
-// import Welcome from './components/welcome';
-// import FunctionClick from './components/FunctionClick';
-// import ClassClick from './components/ClassClick';
-// import Eventbind from './components/EventBind';
-//import ParentComponent from './components/ParentComponent';
-// // import test from './components/test';
-// import childComponent from './components/childComponent';
 //import StyleSheet from './components/StyleSheet';
 //import './AppStyles.css'
 //import styles from './AppStyles.module.css'
@@ -25,20 +10,14 @@ import Table from './components/Table';
 
 
 
-//import {Hello} from './components/hello';
-//import Message from './components/message';
-//import Counter from './components/counter';
-
 
 function App() {
   return (
     <div className="App">
       {/* <Navbar/> */}
-      {/* <FragmentDemo></FragmentDemo> */}
-      <Table></Table>
-      {/* <LifeCycleB/> */}
-      {/* <LifeCycleA/> */}
-      {/* <Form></Form> */}
+      
+      <PureComp></PureComp>
+
       {/* <Inline></Inline>
       <h1 className='error' >ERROR</h1>
       plain .css file makes classes local by default
