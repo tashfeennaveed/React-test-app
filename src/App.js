@@ -1,7 +1,7 @@
 
 
 import './App.css';
-import PureComp from './components/PureComp';
+import RefsDemo from './components/RefsDemo';
 // import {Greet} from './components/Greet';
 //import StyleSheet from './components/StyleSheet';
 //import './AppStyles.css'
@@ -16,8 +16,7 @@ function App() {
     <div className="App">
       {/* <Navbar/> */}
       
-      <PureComp></PureComp>
-
+      <RefsDemo></RefsDemo>
       {/* <Inline></Inline>
       <h1 className='error' >ERROR</h1>
       plain .css file makes classes local by default
