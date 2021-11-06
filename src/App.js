@@ -1,8 +1,7 @@
 
 
 import './App.css';
-import FocusInput from './components/FocusInput';
-
+import FRParentInput from './components/FRParentInput';
 // import {Greet} from './components/Greet';
 //import StyleSheet from './components/StyleSheet';
 //import './AppStyles.css'
@@ -16,7 +15,7 @@ function App() {
   return (
     <div className="App">
       {/* <Navbar/> */}
-      
+      <FRParentInput/>
       
       {/* <Inline></Inline>
       <h1 className='error' >ERROR</h1>
