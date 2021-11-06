@@ -2,6 +2,7 @@
 
 import './App.css';
 import FRParentInput from './components/FRParentInput';
+import PortalDemo from './components/PortalDemo';
 // import {Greet} from './components/Greet';
 //import StyleSheet from './components/StyleSheet';
 //import './AppStyles.css'
@@ -15,7 +16,7 @@ function App() {
   return (
     <div className="App">
       {/* <Navbar/> */}
-      <FRParentInput/>
+      <PortalDemo></PortalDemo>
       
       {/* <Inline></Inline>
       <h1 className='error' >ERROR</h1>
