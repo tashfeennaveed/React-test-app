@@ -1,7 +1,8 @@
 
 
 import './App.css';
-import RefsDemo from './components/RefsDemo';
+import FocusInput from './components/FocusInput';
+
 // import {Greet} from './components/Greet';
 //import StyleSheet from './components/StyleSheet';
 //import './AppStyles.css'
@@ -16,7 +17,7 @@ function App() {
     <div className="App">
       {/* <Navbar/> */}
       
-      <RefsDemo></RefsDemo>
+      
       {/* <Inline></Inline>
       <h1 className='error' >ERROR</h1>
       plain .css file makes classes local by default
