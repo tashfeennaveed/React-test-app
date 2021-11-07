@@ -1,8 +1,8 @@
 
 
 import './App.css';
-import FRParentInput from './components/FRParentInput';
-import PortalDemo from './components/PortalDemo';
+import ErrorBoundary from './components/ErrorBoundary';
+import Hero from './components/Hero';
 // import {Greet} from './components/Greet';
 //import StyleSheet from './components/StyleSheet';
 //import './AppStyles.css'
@@ -16,8 +16,15 @@ function App() {
   return (
     <div className="App">
       {/* <Navbar/> */}
-      <PortalDemo></PortalDemo>
-      
+      <ErrorBoundary> 
+      <Hero heroname='Batman' />
+      </ErrorBoundary>
+      <ErrorBoundary>
+      <Hero heroname='superman' />
+      </ErrorBoundary>
+      <ErrorBoundary>
+      <Hero heroname='joker' />
+      </ErrorBoundary>
       {/* <Inline></Inline>
       <h1 className='error' >ERROR</h1>
       plain .css file makes classes local by default
