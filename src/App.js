@@ -1,8 +1,8 @@
 
 
 import './App.css';
-import ErrorBoundary from './components/ErrorBoundary';
-import Hero from './components/Hero';
+import ClickCounter from './components/ClickCounter';
+import HowerCounter from './components/HowerCounter';
 // import {Greet} from './components/Greet';
 //import StyleSheet from './components/StyleSheet';
 //import './AppStyles.css'
@@ -16,7 +16,11 @@ function App() {
   return (
     <div className="App">
       {/* <Navbar/> */}
-      <ErrorBoundary> 
+
+
+      <ClickCounter></ClickCounter>
+      <HowerCounter></HowerCounter>
+      {/* <ErrorBoundary> 
       <Hero heroname='Batman' />
       </ErrorBoundary>
       <ErrorBoundary>
@@ -24,7 +28,9 @@ function App() {
       </ErrorBoundary>
       <ErrorBoundary>
       <Hero heroname='joker' />
-      </ErrorBoundary>
+      </ErrorBoundary> */}
+
+
       {/* <Inline></Inline>
       <h1 className='error' >ERROR</h1>
       plain .css file makes classes local by default
