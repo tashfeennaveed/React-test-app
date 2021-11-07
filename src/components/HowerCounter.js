@@ -14,4 +14,4 @@ class HowerCounter extends Component {
     }
 }
 
-export default updatedComponent(HowerCounter)
+export default updatedComponent(HowerCounter, 10)

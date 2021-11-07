@@ -1,6 +1,6 @@
 import React from "react";
 
-const updatedComponent = OrignalComponent => {
+const updatedComponent = (OrignalComponent, incrimentNumber) => {
     class NewComponent extends React.Component {
         constructor(props) {
             super(props)
@@ -13,7 +13,7 @@ const updatedComponent = OrignalComponent => {
         ClickHandler(){
             this.setState(
                 prevState => {
-                   return { count: prevState.count + 1 }
+                   return { count: prevState.count + incrimentNumber }
                 }
             )
         }
@@ -22,7 +22,9 @@ const updatedComponent = OrignalComponent => {
             return(
                 <OrignalComponent 
                 count={this.state.count} 
-                ClickHandler={()=>this.ClickHandler()}/>
+                ClickHandler={()=>this.ClickHandler()}
+                {...this.props}
+                />
                   )
                  }
     }
@@ -30,3 +32,5 @@ const updatedComponent = OrignalComponent => {
 }
 
 export default updatedComponent
+
+// MUST!!! {...this.props} here rest of the props are passed back to the orignal component
