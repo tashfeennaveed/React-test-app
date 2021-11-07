@@ -2,6 +2,8 @@
 
 import './App.css';
 import ClickCounter from './components/ClickCounter';
+import CounterRenderProp from './components/CounterRenderProp';
+import CounterRenderPropCH from './components/CounterRenderPropCH';
 import HowerCounter from './components/HowerCounter';
 // import {Greet} from './components/Greet';
 //import StyleSheet from './components/StyleSheet';
@@ -18,8 +20,11 @@ function App() {
       {/* <Navbar/> */}
 
 
-      <ClickCounter></ClickCounter>
-      <HowerCounter></HowerCounter>
+      <CounterRenderProp>
+      {(count, ClickHandler) => (
+        <CounterRenderPropCH count={count} ClickHandler={ClickHandler}/>
+      )}
+      </CounterRenderProp>
       {/* <ErrorBoundary> 
       <Hero heroname='Batman' />
       </ErrorBoundary>

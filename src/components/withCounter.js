@@ -26,8 +26,8 @@ const updatedComponent = (OrignalComponent, incrimentNumber) => {
                 {...this.props}
                 />
                   )
-                 }
-    }
+           
+    }}
     return NewComponent
 }
 
