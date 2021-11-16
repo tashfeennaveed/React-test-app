@@ -2,9 +2,11 @@
 
 import './App.css';
 import ClickCounter from './components/ClickCounter';
+import CompA from './components/CompA';
 import CounterRenderProp from './components/CounterRenderProp';
 import CounterRenderPropCH from './components/CounterRenderPropCH';
 import HowerCounter from './components/HowerCounter';
+import { UserProvider } from './components/UserContext';
 // import {Greet} from './components/Greet';
 //import StyleSheet from './components/StyleSheet';
 //import './AppStyles.css'
@@ -18,13 +20,19 @@ function App() {
   return (
     <div className="App">
       {/* <Navbar/> */}
+      <UserProvider value='QWE'>
+      <CompA/>
+      </UserProvider>
+      
+ 
 
-
-      <CounterRenderProp>
+      {/* <CounterRenderProp>
       {(count, ClickHandler) => (
         <CounterRenderPropCH count={count} ClickHandler={ClickHandler}/>
       )}
-      </CounterRenderProp>
+      </CounterRenderProp> */}
+
+
       {/* <ErrorBoundary> 
       <Hero heroname='Batman' />
       </ErrorBoundary>
