@@ -1,7 +1,7 @@
 
 
 import './App.css';
-import PostList from './components/PostList';
+import PostForm from './components/PostForm';
 //import { UserProvider } from './components/UserContext';
 // import {Greet} from './components/Greet';
 //import StyleSheet from './components/StyleSheet';
@@ -16,8 +16,8 @@ function App() {
   return (
     <div className="App">
       {/* <Navbar/> */}
-
-      <PostList></PostList>
+      <PostForm></PostForm>
+      
 
 
       {/* <UserProvider value='QWE'>
