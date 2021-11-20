@@ -1,8 +1,7 @@
 
 
 import './App.css';
-import ClassCounter from './components/ClassCounter';
-import HookCounter from './components/HookCounter';
+import HookCounter2 from './components/HookCounter2';
 //import { UserProvider } from './components/UserContext';
 // import {Greet} from './components/Greet';
 //import StyleSheet from './components/StyleSheet';
@@ -17,7 +16,7 @@ function App() {
   return (
     <div className="App">
       {/* <Navbar/> */}
-      <HookCounter/>
+      <HookCounter2/>
       
 
 
