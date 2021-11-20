@@ -16,7 +16,7 @@ function HookCounter3() {
 <input 
                 type='text'
                 value={name.lastName}
-                onChange={e => setName({ ...name, lastName:e.target.value })} 
+                onChange={e => setName({ ...name, lastName:e.target.value, firstName:e.target.value, thirdName:e.target.value })} 
                 />
                 <h2>Your first name is -- {name.firstName}</h2>
                 <h2>Your last name is -- {name.lastName}</h2>
