@@ -1,8 +1,7 @@
 
 
 import './App.css';
-import HookCounter3 from './components/HookCounter3';
-import HookCounter4 from './components/HookCounter4';
+import UseEFFECT from './components/UseEFFECT';
 //import { UserProvider } from './components/UserContext';
 // import {Greet} from './components/Greet';
 //import StyleSheet from './components/StyleSheet';
@@ -17,7 +16,7 @@ function App() {
   return (
     <div className="App">
       {/* <Navbar/> */}
-      <HookCounter3/>
+      <UseEFFECT></UseEFFECT>
       
 
 
