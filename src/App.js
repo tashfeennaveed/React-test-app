@@ -2,6 +2,7 @@
 
 import './App.css';
 import HookMouse from './components/HookMouse';
+import MouseContainer from './components/MouseContainer';
 //import { UserProvider } from './components/UserContext';
 // import {Greet} from './components/Greet';
 //import StyleSheet from './components/StyleSheet';
@@ -16,7 +17,7 @@ function App() {
   return (
     <div className="App">
       {/* <Navbar/> */}
-      <HookMouse></HookMouse>
+      <MouseContainer></MouseContainer>
       
 
 
