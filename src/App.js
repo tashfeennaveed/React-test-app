@@ -1,7 +1,7 @@
 
 
 import './App.css';
-import UseEFFECT from './components/UseEFFECT';
+import HookMouse from './components/HookMouse';
 //import { UserProvider } from './components/UserContext';
 // import {Greet} from './components/Greet';
 //import StyleSheet from './components/StyleSheet';
@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       {/* <Navbar/> */}
-      <UseEFFECT></UseEFFECT>
+      <HookMouse></HookMouse>
       
 
 
