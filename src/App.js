@@ -1,7 +1,7 @@
 
 
 import './App.css';
-import IntervalHookCounter from './components/IntervalHookCounter';
+import DATAFetching from './components/DATAFetching';
 ////import MouseContainer from './components/MouseContainer';
 //import { UserProvider } from './components/UserContext';
 // import {Greet} from './components/Greet';
@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       {/* <Navbar/> */}
-      <IntervalHookCounter></IntervalHookCounter>
+      <DATAFetching></DATAFetching>
       
 
 
