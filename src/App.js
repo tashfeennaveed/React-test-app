@@ -1,7 +1,7 @@
 
 
 import './App.css';
-import DATAFetching from './components/DATAFetching';
+import FetchingSinglePost from './components/FetchingSinglePost';
 ////import MouseContainer from './components/MouseContainer';
 //import { UserProvider } from './components/UserContext';
 // import {Greet} from './components/Greet';
@@ -17,7 +17,8 @@ function App() {
   return (
     <div className="App">
       {/* <Navbar/> */}
-      <DATAFetching></DATAFetching>
+      
+      <FetchingSinglePost/>
       
 
 

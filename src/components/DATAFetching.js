@@ -6,14 +6,15 @@ function DATAFetching() {
 
     useEffect(()=>{
         axios.get('https://jsonplaceholder.typicode.com/posts')
-        .than(Response => {
-            console.log(Response)
+        .than(res => {
+            console.log(res)
+            setPosts(res.data)
         }) 
-        .catch(Error => {
-            console.log(Error)
+        .catch(err => {
+            console.log(err)
         })
     
-    })
+    },[])
     return (
         <div>
             <ul>
