@@ -2,7 +2,8 @@
 
 import React from 'react';
 import './App.css';
-import CompE from './components/CompE';
+import CounterReducer from './CounterReducer';
+//import CompE from './components/CompE';
 ////import MouseContainer from './components/MouseContainer';
 //import { UserProvider } from './components/UserContext';
 // import {Greet} from './components/Greet';
@@ -19,11 +20,16 @@ function App() {
   return (
     <div className="App">
       {/* <Navbar/> */}
-      <Userconstext.Provider value={'tashfeen'}>
+
+     <CounterReducer></CounterReducer>
+
+
+
+      {/* <Userconstext.Provider value={'tashfeen'}>
         <Chanelconstext.Provider value={'codeve'}>
           <CompE/>
         </Chanelconstext.Provider>
-      </Userconstext.Provider>
+      </Userconstext.Provider> */}
       
 
 
