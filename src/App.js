@@ -1,7 +1,8 @@
 
 
+import React from 'react';
 import './App.css';
-import FetchingSinglePost from './components/FetchingSinglePost';
+import CompE from './components/CompE';
 ////import MouseContainer from './components/MouseContainer';
 //import { UserProvider } from './components/UserContext';
 // import {Greet} from './components/Greet';
@@ -12,13 +13,17 @@ import FetchingSinglePost from './components/FetchingSinglePost';
 
 
 
-
+export const Userconstext = React.createContext()
+export const Chanelconstext = React.createContext()
 function App() {
   return (
     <div className="App">
       {/* <Navbar/> */}
-      
-      <FetchingSinglePost/>
+      <Userconstext.Provider value={'tashfeen'}>
+        <Chanelconstext.Provider value={'codeve'}>
+          <CompE/>
+        </Chanelconstext.Provider>
+      </Userconstext.Provider>
       
 
 
