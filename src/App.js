@@ -2,7 +2,7 @@
 
 import React from 'react';
 import './App.css';
-import CounterReducer3 from './components/CounterReducer3';
+import DataFetchingOne from './components/DataFetchingOne';
 //import CompE from './components/CompE';
 ////import MouseContainer from './components/MouseContainer';
 //import { UserProvider } from './components/UserContext';
@@ -21,7 +21,7 @@ function App() {
     <div className="App">
       {/* <Navbar/> */}
 
-     <CounterReducer3/>
+     <DataFetchingOne/>
 
 
 
