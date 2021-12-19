@@ -2,8 +2,7 @@
 
 import React from 'react';
 import './App.css';
-import FoccusInput from './components/FoccusInput';
-import Hooktimer from './components/Hooktimer';
+import UserForm from './components/UserForm';
 //import CompE from './components/CompE';
 ////import MouseContainer from './components/MouseContainer';
 //import { UserProvider } from './components/UserContext';
@@ -22,8 +21,8 @@ function App() {
     <div className="App">
       {/* <Navbar/> */}
 
-      <FoccusInput/>
-      <Hooktimer/>
+      
+      <UserForm/>
 
 
       {/* <Userconstext.Provider value={'tashfeen'}>
