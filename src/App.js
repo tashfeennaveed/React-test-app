@@ -2,7 +2,7 @@
 
 import React from 'react';
 import './App.css';
-import UserForm from './components/UserForm';
+import { UseState } from './components/UseState/UseState';
 //import CompE from './components/CompE';
 ////import MouseContainer from './components/MouseContainer';
 //import { UserProvider } from './components/UserContext';
@@ -22,7 +22,7 @@ function App() {
       {/* <Navbar/> */}
 
       
-      <UserForm/>
+      <UseState/>
 
 
       {/* <Userconstext.Provider value={'tashfeen'}>
