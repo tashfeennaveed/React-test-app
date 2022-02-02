@@ -3,12 +3,12 @@ import useInput from '../Hooks/useInput'
 
 function UserForm() {
 
-    const [firstname, bindfirstname, resetFname] = useInput('qwerty')
-    const [lastname , bindLname, resetLname] = useInput('')
+    const [firstName, bindFirstname, resetFname] = useInput('')
+    const [lastName , bindLastname, resetLname] = useInput('')
 
     const submitHandler = (e) => {
         e.preventDefault()
-        alert(`Hello ${firstname} ${lastname}`)
+        alert(`Hello ${firstName} ${lastName}`)
         resetFname()
         resetLname()
     }
@@ -21,16 +21,17 @@ function UserForm() {
                         First Name                        
                     </label>
                     <input 
-                    {...bindfirstname}
+                    {...bindFirstname}
                     type='text'
                     />
+                    <input type='text' />
                 </div>
                 <div>
                     <label>
                         Last Name
                     </label>
                     <input 
-                    {...bindLname}
+                    {...bindLastname}
                     type='text'
                     />
                 </div>
